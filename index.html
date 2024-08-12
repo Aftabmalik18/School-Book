@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Book</title>
+    <link rel="stylesheet" href="assembly.css">
+</head>
+<body>
+    <div class="container">
+        <h1>School Book of JES</h1>
+        <div id="controlPanel">
+            <label for="classSelect">Select Class:</label>
+            <select id="classSelect">
+                <option value="3">Class 3</option>
+                <option value="4">Class 4</option>
+                <option value="5">Class 5</option>
+                <option value="6">Class 6</option>
+                <option value="7">Class 7</option>
+                <option value="8">Class 8</option>
+            </select>
+            <input type="date" id="datePicker">
+            <button id="generateBtn">Generate Duties</button>
+        </div>
+        <div id="dutiesList"></div>
+        <div id="eventsList"></div>
+        <button id="backBtn" style="display: none;">Back</button>
+    </div>
+    <script src="assembly.js"></script>
+</body>
+</html>
