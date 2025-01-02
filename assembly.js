@@ -75,8 +75,7 @@ const studentsByClass = {
     5: [
        "Aarohi Subhash Dhabale",
 "Adiyan Amjad Khan",
-"Anas Mohasin Shaikh",
-"Aryan Rahul Vairat",
+"Anas Mohasin Shaikh",
 "Bankar Kranti Vitthal",
 "Darsh Prasanna Kate",
 "Dhairya Rupesh Wahule",
